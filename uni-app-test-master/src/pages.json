@@ -1,0 +1,56 @@
+{
+  "easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+  "pages": [
+    {
+      "path": "pages/write/write",
+      "style": {
+        "navigationBarTitleText": "事项清单"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "事项清单"
+      }
+    },
+    
+    {
+      "path": "pages/done/done",
+      "style": {
+        "navigationBarTitleText": "事项清单"
+      }
+    }
+  ],
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#75c8b1",
+    "borderStyle":"white",
+    "backgroundColor":"#fff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath": "static/faxian1.png",
+        "selectedIconPath": "static/faxian.png",
+        "text":"待完成"
+      },{
+      "pagePath":"pages/write/write",
+      "iconPath": "static/shouye1.png",
+      "selectedIconPath": "static/shouye.png",
+      "text":"撰写事项"
+    },{
+      "pagePath":"pages/done/done",
+      "iconPath": "static/wode1.png",
+      "selectedIconPath": "static/wode.png",
+      "text":"已完成"
+    }]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app-test",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  }
+  
+}

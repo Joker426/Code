@@ -1,0 +1,15 @@
+
+.title{
+  font-size: 22px;
+  text-align: center;
+}
+.title2{
+  margin-top: 30px;
+  font-size: 22px;
+  text-align: center;
+}
+.btn{
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
